@@ -14,7 +14,7 @@ $(document).ready(function() {
     $("body").addClass("red-background");
   });
   $("button#white").click(function() {
-    $("body").removeClass();
+    $("body, #blue-text-border").removeClass();
     $("body").addClass("revert-colors");
   });
   $("button#blue").click(function() {
